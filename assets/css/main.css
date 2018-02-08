@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#collage {
+	margin-top: 1em;
+}
+
+.col .sinEspacio{
+	margin: 0;
+  padding: 0;
+}
+
+.row .sinEspacio{
+	margin: 0;
+  padding: 0;
+}
+
+#primerPanel {
+	height: 60vh;
+  border: 2px solid black;
+}
+
+#segundoPanel {
+	height: 20vh;
+  border: 2px solid black;
+}
