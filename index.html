@@ -12,22 +12,22 @@
 		<div id="collage">
 			<div class="row sinEspacio">
 				<div class="col-xs-7 sinEspacio">
-					<div id="primerPanel">
+					<div id="primerPanel" ondragover="accessDrop(event)" ondrop="drop(event)">
 						
 					</div>
 				</div>
 				<div class="col-xs-5 sinEspacio">
-					<div id="segundoPanel">
+					<div id="segundoPanel" ondragover="accessDrop(event)" ondrop="drop(event)">
 						
 					</div>
 				</div>
 				<div class="col-xs-5 sinEspacio">
-					<div id="segundoPanel">
+					<div id="segundoPanel" ondragover="accessDrop(event)" ondrop="drop(event)">
 						
 					</div>
 				</div>
-				<div class="col-xs-5 sinEspacio">
-					<div id="segundoPanel">
+				<div class="col-xs-5 sinEspacio" >
+					<div id="segundoPanel" ondragover="accessDrop(event)" ondrop="drop(event)">
 						
 					</div>
 				</div>
@@ -36,7 +36,40 @@
 	</div>
 	<span id="photoBooth">PHOTO BOOTH</span>
 	<div class="container-fluid">
-		
+		<div id="selectionPhotos" ondragover="accessDrop(event)" ondrop="drop(event)">
+			<div class="row sinEspacio">
+				<div class="col-xs-4 sinEspacio">
+					<div id="photosElection">
+						<img id="photo" class="img-responsive" src="assets/img/Fight_club_RVB_72.jpg" draggable="true" ondragstart="drag(event)"></img>
+					</div>
+				</div>
+				<div class="col-xs-4 sinEspacio">
+					<div id="photosElection">
+						<img id="photo" class="img-responsive" src="assets/img/brad-pitt--644x362.jpg" draggable="true" ondragstart="drag(event)">
+					</div>
+				</div>
+				<div class="col-xs-4 sinEspacio">
+					<div id="photosElection">
+						<img id="photo" class="img-responsive" src="assets/img/El-Club-de-la-Lucha-2016-1.png" draggable="true" ondragstart="drag(event)">
+					</div>
+				</div>
+				<div class="col-xs-4 sinEspacio">
+					<div id="photosElection">
+						<img id="photo" class="img-responsive" src="assets/img/a-fight-2.jpg" draggable="true" ondragstart="drag(event)">
+					</div>
+				</div>
+				<div class="col-xs-4 sinEspacio">
+					<div id="photosElection">
+						<img id="photo" class="img-responsive" src="assets/img/club-lucha_3.jpg" draggable="true" ondragstart="drag(event)">
+					</div>
+				</div>
+				<div class="col-xs-4 sinEspacio">
+					<div id="photosElection">
+						<img id="photo" class="img-responsive" src="assets/img/club-lucha_0.jpg" draggable="true" ondragstart="drag(event)">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

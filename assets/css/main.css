@@ -26,3 +26,13 @@
 	height: 20vh;
   border: 2px solid black;
 }
+
+#photosElection {
+	height: 20vh;
+	border: 2px solid black;
+}
+
+#photo {
+	height: inherit;
+	width: inherit;
+}
